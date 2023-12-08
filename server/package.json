@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/JeffersonD9/CRUD#readme",
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "prisma": "^5.7.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.0",
+    "morgan": "^1.10.0"
   }
 }
