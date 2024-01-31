@@ -5,7 +5,7 @@ import {createProduct, getAllProducts, getProduct, updateProduct, deleteProduct}
 
     async function createProductController(req,res){
 
-    const {data} = req.body
+    const data = req.body
         try {
         
             const newProduct = await createProduct(data);
